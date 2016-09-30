@@ -15,6 +15,7 @@
 		6B6E67D31D942FB90013B8C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6E67D11D942FB90013B8C9 /* LaunchScreen.storyboard */; };
 		6B6E67DE1D942FB90013B8C9 /* Lab03Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6E67DD1D942FB90013B8C9 /* Lab03Tests.m */; };
 		6B6E67E91D942FB90013B8C9 /* Lab03UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B6E67E81D942FB90013B8C9 /* Lab03UITests.m */; };
+		6B6E67F71D9436B50013B8C9 /* iPadStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B6E67F61D9436B50013B8C9 /* iPadStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		6B6E67E41D942FB90013B8C9 /* Lab03UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lab03UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6E67E81D942FB90013B8C9 /* Lab03UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lab03UITests.m; sourceTree = "<group>"; };
 		6B6E67EA1D942FB90013B8C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B6E67F61D9436B50013B8C9 /* iPadStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPadStoryboard.storyboard; path = ../iPadStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		6B6E67C21D942FB90013B8C9 /* Lab03 */ = {
 			isa = PBXGroup;
 			children = (
+				6B6E67F61D9436B50013B8C9 /* iPadStoryboard.storyboard */,
 				6B6E67C61D942FB90013B8C9 /* AppDelegate.h */,
 				6B6E67C71D942FB90013B8C9 /* AppDelegate.m */,
 				6B6E67C91D942FB90013B8C9 /* ViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B6E67D31D942FB90013B8C9 /* LaunchScreen.storyboard in Resources */,
+				6B6E67F71D9436B50013B8C9 /* iPadStoryboard.storyboard in Resources */,
 				6B6E67D01D942FB90013B8C9 /* Assets.xcassets in Resources */,
 				6B6E67CE1D942FB90013B8C9 /* Main.storyboard in Resources */,
 			);
@@ -498,6 +502,7 @@
 				6B6E67EF1D942FB90013B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B6E67F01D942FB90013B8C9 /* Build configuration list for PBXNativeTarget "Lab03Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				6B6E67F21D942FB90013B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B6E67F31D942FB90013B8C9 /* Build configuration list for PBXNativeTarget "Lab03UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				6B6E67F51D942FB90013B8C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
